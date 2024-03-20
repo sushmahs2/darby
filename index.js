@@ -22,13 +22,13 @@ document.addEventListener('DOMContentLoaded', function () {
       const galleryContainer1 = document.getElementById('gallery-container1');
       const imageUrls = [
           'resource/image/rice planter/photo1.JPG',
-          'resource/image/rice planter/photo2.jpg',
-          'resource/image/rice planter/photo3.jpg',
-          'resource/image/rice planter/photo4.jpg',
-          'resource/image/rice planter/photo5.jpg',
-          'resource/image/rice planter/photo6.jpg',
-          'resource/image/rice planter/photo7.jpg',
-          'resource/image/rice planter/photo8.jpg',
+          'resource/image/rice planter/photo2.JPG',
+          'resource/image/rice planter/photo3.JPG',
+          'resource/image/rice planter/photo4.JPG',
+          'resource/image/rice planter/photo5.JPG',
+          'resource/image/rice planter/photo6.JPG',
+          'resource/image/rice planter/photo7.JPG',
+          'resource/image/rice planter/photo8.JPG',
   
           // Add more image URLs as needed
       ];
@@ -51,7 +51,7 @@ const galleryContainer2 = document.getElementById('gallery-container2');
 // Replace these image URLs with your own image URLs
 const imageUrls2 = [
     'resource/image/cnc and laser/photo1.jpg',
-    'resource/image/cnc and laser/photo2.jpg',
+    'resource/image/cnc and laser/photo2.JPG',
     'resource/image/cnc and laser/photo3.jpg',
     'resource/image/cnc and laser/photo4.jpg',
 
@@ -76,10 +76,10 @@ const galleryContainer3 = document.getElementById('gallery-container3');
 
 // Replace these image URLs with your own image URLs
 const imageUrls3 = [
-    'resource/image/wall printer/photo1.jpg',
-    'resource/image/wall printer/photo2.jpg',
-    'resource/image/wall printer/photo3.jpg',
-    'resource/image/wall printer/photo4.jpg',
+    'resource/image/wall printer/photo1.JPG',
+    'resource/image/wall printer/photo2.JPG',
+    'resource/image/wall printer/photo3.JPG',
+    'resource/image/wall printer/photo4.JPG',
 
     // Add more image URLs as needed
 ];
@@ -102,10 +102,10 @@ const galleryContainer4 = document.getElementById('gallery-container4');
 
 // Replace these image URLs with your own image URLs
 const imageUrls4 = [
-    'resource/image/wall printer/photo1.jpg',
-    'resource/image/wall printer/photo2.jpg',
-    'resource/image/wall printer/photo3.jpg',
-    'resource/image/wall printer/photo4.jpg',
+    'resource/image/wall printer/photo1.JPG',
+    'resource/image/wall printer/photo2.JPG',
+    'resource/image/wall printer/photo3.JPG',
+    'resource/image/wall printer/photo4.JPG',
 
     // Add more image URLs as needed
 ];
@@ -130,10 +130,10 @@ const galleryContainer5 = document.getElementById('gallery-container5');
 
 // Replace these image URLs with your own image URLs
 const imageUrls5 = [
-    'resource/image/3D printer/photo1.jpg',
-    'resource/image/3D printer/photo2.jpg',
-    'resource/image/3D printer/photo3.jpg',
-    'resource/image/3D printer/photo4.jpg',
+    'resource/image/3D printer/photo1.JPG',
+    'resource/image/3D printer/photo2.JPG',
+    'resource/image/3D printer/photo3.JPG',
+    'resource/image/3D printer/photo4.JPG',
 
     // Add more image URLs as needed
 ];
@@ -160,9 +160,9 @@ const galleryContainer6 = document.getElementById('gallery-container6');
 // Replace these image URLs with your own image URLs
 const imageUrls6 = [
     'resource/image/power tool/photo1.jpg',
-    'resource/image/power tool/photo2.jpg',
-    'resource/image/power tool/photo3.jpg',
-    'resource/image/power tool/photo4.jpg',
+    'resource/image/power tool/photo2.JPG',
+    'resource/image/power tool/photo3.JPG',
+    'resource/image/power tool/photo4.JPG',
 
     // Add more image URLs as needed
 ];
@@ -187,10 +187,10 @@ const galleryContainer7 = document.getElementById('gallery-container7');
 
 // Replace these image URLs with your own image URLs
 const imageUrls7 = [
-    'resource/image/avt Bike/photo1.jpg',
-    'resource/image/avt Bike/photo2.jpg',
-    'resource/image/avt Bike/photo3.jpg',
-    'resource/image/avt Bike/photo4.jpg',
+    'resource/image/avt Bike/photo1.JPG',
+    'resource/image/avt Bike/photo2.JPG',
+    'resource/image/avt Bike/photo3.JPG',
+    'resource/image/avt Bike/photo4.JPG',
 
     // Add more image URLs as needed
 ];
@@ -216,9 +216,9 @@ const galleryContainer8 = document.getElementById('gallery-container8');
 
 // Replace these image URLs with your own image URLs
 const imageUrls8 = [
-    'resource/image/Sports and play/photo1.jpg',
-    'resource/image/Sports and play/photo2.jpg',
-    'resource/image/Sports and play/photo3.jpg',
+    'resource/image/Sports and play/photo1.JPG',
+    'resource/image/Sports and play/photo2.JPG',
+    'resource/image/Sports and play/photo3.JPG',
     'resource/image/Sports and play/photo4.jpg',
 
     // Add more image URLs as needed
@@ -248,7 +248,7 @@ const imageUrls9 = [
     'resource/image/raw material/photo1.jpg',
     'resource/image/raw material/photo2.jpg',
     'resource/image/raw material/photo3.jpg',
-    'resource/image/raw material/photo4.jpg',
+    'resource/image/raw material/photo4.JPG',
 
     // Add more image URLs as needed
 ];
@@ -273,12 +273,12 @@ const galleryContainer10 = document.getElementById('gallery-container10');
 
 // Replace these image URLs with your own image URLs
 const imageUrls10 = [
-    'resource/image/photogallery/photo1.jpg',
+    'resource/image/photogallery/photo1.JPG',
     'resource/image/photogallery/photo2.jpeg',
     'resource/image/photogallery/photo3.jpeg',
-    'resource/image/photogallery/photo4.png',
-    'resource/image/photogallery/photo5.png',
-    'resource/image/photogallery/photo6.jpg',
+    'resource/image/photogallery/photo4.PNG',
+    'resource/image/photogallery/photo5.PNG',
+    'resource/image/photogallery/photo6.JPG',
     'resource/image/photogallery/photo7.jpeg',
 
 
