@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
       //Rice planter gallery 
       const galleryContainer1 = document.getElementById('gallery-container1');
       const imageUrls = [
-          'resource/image/rice planter/photo1.jpg',
+          'resource/image/rice planter/photo1.JPG',
           'resource/image/rice planter/photo2.jpg',
           'resource/image/rice planter/photo3.jpg',
           'resource/image/rice planter/photo4.jpg',
