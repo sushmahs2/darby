@@ -1,15 +1,197 @@
 <!DOCTYPE html>
-<html lang="en">
+<html >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="About-Us-cs.css">
-</head>
+    <style>
+        body{
+            
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+           
+            background-color: #191919;
+            color: #fff;
+            padding-bottom: 50px;
+       
+        }
+        header {
+    text-transform:uppercase;
+
+    background-color: #fff;
+    color:#343434;
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+    position: relative;
+    line-height: 1; /* Set line-height to 1 to ensure button height matches the text height */
+}
+
+
+
+/*This section for menu button*/
+button {
+    
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px; /* Adjust the margin as needed */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 1em; /* Set the height to match the line-height of the header text */
+}
+
+nav {
+    
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    height: 100vh;
+    width: 45%; /* Set the width to 30% of the screen */
+    max-width: 300px; /* Set a maximum width for larger screens */
+    z-index: 2; /* Ensure it is above other elements */
+}
+
+
+nav ul {
+    font-size: 25px;
+    
+    list-style-type: none;
+    padding: 1;
+    margin: 10;
+    text-align: left;
+}
+
+.buttonlist2 a {
+    color:#FFC200;/* Set text color to white and use !important to ensure it takes precedence */
+    text-decoration: none ; /* Remove underline */
+    }
+  
+    .buttonlist2 img {
+        width: 50px; /* Adjust image width as needed */
+    height: auto;
+    margin-bottom: 10px; /* Space between image and text */
+
+    }
+
+
+nav li {
+    margin-bottom: 20px;
+    
+}
+
+
+/* This section for divider*/
+
+    .heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    height: 30px;
+    padding-bottom: 20px;
+    }
+    .container {
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        flex-shrink: 0;
+        justify-content: center;
+        height: 550px;
+      }
+      
+      .cell {
+       
+        flex:1;
+        max-width: 400px;
+        padding: 10px;
+        border-radius: 5px;
+        text-align: center;
+        text-align: justify;
+      }
+      .container img {
+    width: 300px; /* Adjust image width as needed */
+    height: auto;
+    margin-bottom: 10px; /* Space between image and text */
+  }
+
+  .container p{
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 16px;
+    padding-bottom: 50px;
+  }
+  .cont-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+  }
+
+  .chat a {
+
+    color:#FFC200;/* Set text color to white and use !important to ensure it takes precedence */
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+
+  }
+        @media (max-width: 1250px) {
+        .container{
+          flex-direction: column;
+          height: 100%;
+        } }
+
+
+
+  /* This section for history */
+.historycol{
+
+    justify-content: center;
+    align-items: center;
+ 
+    text-align: center;
+   background-color: #FFC200;
+
+}
+
+.text-hist {
+    text-align: justify;
+    
+    
+    padding: 20px;
+ 
+    color: #000;
+    padding-left: 10%;
+    padding-right: 10%;
+    
+  }
+
+  .hist-para{
+
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    
+
+  }
+
+  .hist-headline{
+    padding-top: 50px;
+    text-align: center;
+ 
+    font-size: 30px;
+  }
+
+        .space{
+            padding: 30px;
+        }
+    </style>
+        </head>
 <body>
 
-
-    
     <!-- This section for menu button-->
     <header>
         <button id="menuButton2">
@@ -25,83 +207,83 @@
         </nav>
 </header>
 <div>
+<div>
 <h2 class="heading"> About Darby trading LLC</h2>
+</div>
+    
+
+
 <div class="container">
    
     <div class="cell">
       <img src="Website resource/about us/photo1.png" alt="Image 1">
-      <h3>Our Expertise</h3>
+      <h3 class="cont-heading">Our Expertise</h3>
       <p>Darby Company pioneers in importing cutting-edge technology—Wood CNC Routers, Laser Machines, Agricultural Drones—and premium raw materials like MDF, Acrylic, Plywood. Our expertise drives innovation, offering superior quality for industries across India. </p>
       
       <div class="chat">
    <a href="whatsapp://send?phone=916364215898">Learn More</a>
       </div>
+
     </div>
+
+
     <div class="cell">
-        
-      <img src="Website resource/about us/photo3.png" alt="Image 2">
-      <h3>Our Products</h3>
+      <img src="Website resource/about us/photo1.png" alt="Image 2">
+      <h3 class="cont-heading">Our Products</h3>
       <p>Discover Darby's TechMaster Series: Powerful Wood CNC Routers, precise Laser Machines, smart Agricultural Drones. Elevate your work with top-quality tools. Experience innovation that's reliable, making your job easier. Join us in shaping a better tomorrow. </p>
+     
       <div class="chat"> 
-   <a href="whatsapp://send?phone=916364215898">Learn More</a>
-</div>
-    </div>
+      <a href="whatsapp://send?phone=916364215898">Learn More</a>
+      </div>
+ </div>
    
     <div class="cell">
-      <img src="Website resource/about us/photo2.png" alt="Image 3">
-      <h3>Our Suppliers</h3>
+      <img src="Website resource/about us/photo1.png" alt="Image 3">
+      <h3 class="cont-heading">Our Suppliers</h3>
       <p>We have built strong relationships with our suppliers over the years, and we work closely with them to ensure they meet our strict standards for quality and sustainability. We believe in ethical and fair trade practises and are committed to supporting our suppliers and their communities.</p>
+     
       <div class="chat">
    <a href="whatsapp://send?phone=916364215898">Learn More</a>
     </div>
-  </div>
+</div>
       
 </div>
-
-<div class="hist">
-<div class="history">
-
-
-<div class="historycol">
-<div class="text">
-    <h2>
-        About Darby trading LLC
-    </h2>
-    <h3>Our History</h3>
-    <p>Welcome to the world of innovation and relentless pursuit of cutting-edge technology - welcome to the story of Darby Company.
-        <br> 
-        <br>
-        Founded in 2010, Darby Company emerged from the visionary minds of a diverse group of individuals hailing from different cities across South India. United by a shared passion for exploration and a drive to introduce pioneering technologies to India, our journey began with a quest to bring forth revolutionary advancements from across the globe.
-
-        <br>
-        <br>
-        Setting our sights on Dubai, a global hub of innovation, we embarked on a mission to expand our horizons internationally. It was here that we delved into the realm of Vertical Wall Printing, laying the foundation for Darby's pioneering services. The inspiration we gathered from Dubai's thriving tech landscape propelled us back to our homeland, India, with a burning desire to import crucial machinery that was essential for various industries.
-        <br>
-        <br>
-        Our next stop was China, a haven for technological marvels. In our quest for innovation, we explored an array of cutting-edge machinery - from Wood CNC Routers to state-of-the-art Laser Machines, from versatile Agricultural equipment such as Rice planters and wood cutters to revolutionary Agricultural Drones. Diversifying further, we ventured into the realm of 3D Printing, AVT Bikes, T-shirt Printing technology, and the game-changing Vertical Wall Printers.
-        <br>
-        <br>
-        Not limiting ourselves to machines alone, we recognized the significance of providing quality raw materials at competitive rates. Thus, we supply premium materials like MDF, acrylic, Plywood, and a myriad of other raw materials, ensuring the best quality at cost-effective prices.
-        <br>
-        <br>
-        Darby Company stands as a beacon of innovation, a bridge between technology and progress. Our relentless pursuit of excellence and our commitment to importing essential machinery and materials continue to drive us forward. With a steadfast dedication to bringing the latest advancements to India, we strive to empower businesses and industries with the tools needed to thrive in an ever-evolving world.
-        <br>
-        <br>
-        Join us on this transformative journey as we revolutionize industries, elevate businesses, and shape the future with innovation at its core. Welcome to Darby Company - where technology meets possibility.
-    </p>
-  </div>
-  <div class="image">
-    <img src="Website resource/history.png" alt="Image">
-  </div>
-</div>
+<div class="space">
 
 </div>
-</div>
-
-
-
-
   
-    <script src="About-Us-js.js"></script>
-</body>
     
+    <div class="historycol">
+    <div class="text-hist">
+        <h2 class="hist-headline">
+            Our History
+        </h2>
+        
+        <p class="hist-para">Welcome to the world of innovation and relentless pursuit of cutting-edge technology - welcome to the story of Darby Company.
+            <br> 
+            <br>
+            Founded in 2010, Darby Company emerged from the visionary minds of a diverse group of individuals hailing from different cities across South India. United by a shared passion for exploration and a drive to introduce pioneering technologies to India, our journey began with a quest to bring forth revolutionary advancements from across the globe.
+    
+            <br>
+            <br>
+            Setting our sights on Dubai, a global hub of innovation, we embarked on a mission to expand our horizons internationally. It was here that we delved into the realm of Vertical Wall Printing, laying the foundation for Darby's pioneering services. The inspiration we gathered from Dubai's thriving tech landscape propelled us back to our homeland, India, with a burning desire to import crucial machinery that was essential for various industries.
+            <br>
+            <br>
+            Our next stop was China, a haven for technological marvels. In our quest for innovation, we explored an array of cutting-edge machinery - from Wood CNC Routers to state-of-the-art Laser Machines, from versatile Agricultural equipment such as Rice planters and wood cutters to revolutionary Agricultural Drones. Diversifying further, we ventured into the realm of 3D Printing, AVT Bikes, T-shirt Printing technology, and the game-changing Vertical Wall Printers.
+            <br>
+            <br>
+            Not limiting ourselves to machines alone, we recognized the significance of providing quality raw materials at competitive rates. Thus, we supply premium materials like MDF, acrylic, Plywood, and a myriad of other raw materials, ensuring the best quality at cost-effective prices.
+            <br>
+            <br>
+            Darby Company stands as a beacon of innovation, a bridge between technology and progress. Our relentless pursuit of excellence and our commitment to importing essential machinery and materials continue to drive us forward. With a steadfast dedication to bringing the latest advancements to India, we strive to empower businesses and industries with the tools needed to thrive in an ever-evolving world.
+            <br>
+            <br>
+            Join us on this transformative journey as we revolutionize industries, elevate businesses, and shape the future with innovation at its core. Welcome to Darby Company - where technology meets possibility.
+        </p>
+      </div>
+      
+    </div>
+    
+    <script src="About-Us-js.js"></script>    
+
+</body>
