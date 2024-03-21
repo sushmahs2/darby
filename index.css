@@ -273,20 +273,29 @@ section {
 /*  this section for photo gallery for CNC  and laser*/
 
 .gallery-container2 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-
+    display: flex;
+    background-color: #FFC200;
     gap: 10px;
     padding: 20px;
     max-width: 100%;
     height: 50vh;
     margin: auto;
+    
 }
 
+@media (max-width: 1250px) {
+    .gallery-container2{
+      flex-direction: column;
+      height:100vh;
+        width:90%;
+    } }
+
+
 .gallery-item2 {
+    flex: 1 0 25%;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 4px 8px #878787;
+    box-shadow: 0 4px 8px #343434;
     transition: transform 0.2s; /* Add transition for the enlargement effect */
 }
 
@@ -303,23 +312,33 @@ section {
 }
 
 
+
 /*  this section for photo gallery for WAll printer*/
 .section5 {
     background-color: #FFC200; /* Change the color as desired */   
 }
 
 .gallery-container3 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    display: flex;
     background-color: #FFC200;
     gap: 10px;
     padding: 20px;
     max-width: 100%;
     height: 50vh;
     margin: auto;
+    
 }
 
+@media (max-width: 1250px) {
+    .gallery-container3{
+      flex-direction: column;
+      height:100vh;
+        width:90%;
+    } }
+
+
 .gallery-item3 {
+    flex: 1 0 25%;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px #343434;
@@ -343,20 +362,29 @@ section {
 
 
 .gallery-container4 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-
+    display: flex;
+    background-color: #FFC200;
     gap: 10px;
     padding: 20px;
     max-width: 100%;
     height: 50vh;
     margin: auto;
+    
 }
 
+@media (max-width: 1250px) {
+    .gallery-container4{
+      flex-direction: column;
+      height:100vh;
+        width:90%;
+    } }
+
+
 .gallery-item4 {
+    flex: 1 0 25%;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 4px 8px #878787;
+    box-shadow: 0 4px 8px #343434;
     transition: transform 0.2s; /* Add transition for the enlargement effect */
 }
 
@@ -374,23 +402,33 @@ section {
 
 
 
+
 /* This section for 3D Printer */
 .section7 {
     background-color: #FFC200; /* Change the color as desired */   
 }
 
 .gallery-container5 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    display: flex;
     background-color: #FFC200;
     gap: 10px;
     padding: 20px;
     max-width: 100%;
     height: 50vh;
     margin: auto;
+    
 }
 
-.gallery-item5:hover {
+@media (max-width: 1250px) {
+    .gallery-container5{
+      flex-direction: column;
+      height:100vh;
+        width:90%;
+    } }
+
+
+.gallery-item5 {
+    flex: 1 0 25%;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px #343434;
@@ -414,20 +452,29 @@ section {
 
 
 .gallery-container6 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-  
+    display: flex;
+    background-color: #FFC200;
     gap: 10px;
     padding: 20px;
     max-width: 100%;
     height: 50vh;
     margin: auto;
+    
 }
 
-.gallery-item6:hover {
+@media (max-width: 1250px) {
+    .gallery-container6{
+      flex-direction: column;
+      height:100vh;
+        width:90%;
+    } }
+
+
+.gallery-item6 {
+    flex: 1 0 25%;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 4px 8px #878787;
+    box-shadow: 0 4px 8px #343434;
     transition: transform 0.2s; /* Add transition for the enlargement effect */
 }
 
@@ -444,23 +491,33 @@ section {
 }
 
 
+
 /* This section for avt Bike */
 .section9 {
     background-color: #FFC200; /* Change the color as desired */   
 }
 
 .gallery-container7 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    display: flex;
     background-color: #FFC200;
     gap: 10px;
     padding: 20px;
     max-width: 100%;
     height: 50vh;
     margin: auto;
+    
 }
 
-.gallery-item7:hover {
+@media (max-width: 1250px) {
+    .gallery-container7{
+      flex-direction: column;
+      height:100vh;
+        width:90%;
+    } }
+
+
+.gallery-item7 {
+    flex: 1 0 25%;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px #343434;
@@ -484,20 +541,29 @@ section {
 
 /* This section for Sports and play*/
 .gallery-container8 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
-
+    display: flex;
+    background-color: #FFC200;
     gap: 10px;
     padding: 20px;
     max-width: 100%;
     height: 50vh;
     margin: auto;
+    
 }
 
-.gallery-item8:hover {
+@media (max-width: 1250px) {
+    .gallery-container8{
+      flex-direction: column;
+      height:100vh;
+        width:90%;
+    } }
+
+
+.gallery-item8 {
+    flex: 1 0 25%;
     overflow: hidden;
     border-radius: 8px;
-    box-shadow: 0 4px 8px #878787;
+    box-shadow: 0 4px 8px #343434;
     transition: transform 0.2s; /* Add transition for the enlargement effect */
 }
 
@@ -514,23 +580,33 @@ section {
 }
 
 
+
 /* This section for MDF, Acrylic, Plywood and many other raw materials*/
 .section11 {
     background-color: #FFC200; /* Change the color as desired */   
 }
 
 .gallery-container9 {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(20%, 1fr));
+    display: flex;
     background-color: #FFC200;
     gap: 10px;
     padding: 20px;
     max-width: 100%;
     height: 50vh;
     margin: auto;
+    
 }
 
-.gallery-item9:hover {
+@media (max-width: 1250px) {
+    .gallery-container9{
+      flex-direction: column;
+      height:100vh;
+        width:90%;
+    } }
+
+
+.gallery-item9 {
+    flex: 1 0 25%;
     overflow: hidden;
     border-radius: 8px;
     box-shadow: 0 4px 8px #343434;
@@ -548,6 +624,7 @@ section {
 .gallery-item9:hover {
     transform: scale(1.1);
 }
+
 
 
 /* This section for  import photo gallery*/
