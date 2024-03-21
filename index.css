@@ -194,7 +194,8 @@ section {
 @media (max-width: 1250px) {
     .gallery-container1{
       flex-direction: column;
-      height: 50%;
+      height: 25%;
+        width:25%
     } }
 
 
