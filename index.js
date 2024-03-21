@@ -25,10 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
           'resource/image/rice planter/photo2.JPG',
           'resource/image/rice planter/photo3.JPG',
           'resource/image/rice planter/photo4.JPG',
-          'resource/image/rice planter/photo5.JPG',
-          'resource/image/rice planter/photo6.JPG',
-          'resource/image/rice planter/photo7.JPG',
-          'resource/image/rice planter/photo8.JPG',
+          
   
           // Add more image URLs as needed
       ];
