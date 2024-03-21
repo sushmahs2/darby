@@ -40,6 +40,31 @@ document.addEventListener('DOMContentLoaded', function () {
         galleryContainer1.appendChild(galleryItem1);
     });
 
+    // Rice Planter 2nd gallery 
+
+    const galleryContainer1p = document.getElementById('gallery-container1-1');
+      const imageUrlsp = [
+          'resource/image/rice planter/photo5.JPG',
+          'resource/image/rice planter/photo6.JPG',
+          'resource/image/rice planter/photo7.JPG',
+          'resource/image/rice planter/photo8.JPG',
+          // Add more image URLs as needed
+      ];
+       // Create image elements and append them to the gallery container
+    imageUrlsp.forEach(url => {
+        const galleryItem1p = document.createElement('div');
+        galleryItem1p.classList.add('gallery-item1-1');
+
+        const image = document.createElement('img');
+        image.src = url;
+        image.alt = 'Gallery Image';
+
+        galleryItem1p.appendChild(image);
+        galleryContainer1p.appendChild(galleryItem1p);
+    });
+
+    
+
 //CNC  and laser
 const galleryContainer2 = document.getElementById('gallery-container2');
 
