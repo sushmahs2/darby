@@ -25,8 +25,6 @@ document.addEventListener('DOMContentLoaded', function () {
           'resource/image/rice planter/photo2.JPG',
           'resource/image/rice planter/photo3.JPG',
           'resource/image/rice planter/photo4.JPG',
-          
-  
           // Add more image URLs as needed
       ];
        // Create image elements and append them to the gallery container
