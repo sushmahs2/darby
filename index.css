@@ -176,6 +176,15 @@ section {
     text-align: justify;
 }
 
+@media (max-width: 1250px) {
+    .productcontent{
+        font-size: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+     
+    } }
+
 
 
 /*  this section for photo gallery for Rice Planter*/
@@ -193,7 +202,7 @@ section {
 @media (max-width: 1250px) {
     .gallery-container1{
       flex-direction: column;
-      height:50%;
+      height:50vh;
         width:100%;
     } }
 
