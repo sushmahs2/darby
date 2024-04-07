@@ -133,6 +133,11 @@ section {
     line-height: 2;
   
 }
+@media (max-width: 1250px) {
+    .quote{
+        font-size: 10px;
+    } }
+
 
 
 .highlight{
@@ -141,7 +146,7 @@ section {
 
 @media (max-width: 1250px) {
     .highlight{
-        font-size: 40px;
+        font-size: 20px;
     } }
 
 .highlight1{
@@ -150,7 +155,7 @@ section {
 
 @media (max-width: 1250px) {
     .highlight1{
-        font-size: 30px;
+        font-size: 15px;
     } }
 
 
