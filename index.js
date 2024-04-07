@@ -342,7 +342,7 @@ imageUrls10.forEach(url => {
     galleryContainer10p.appendChild(galleryItem10p);
 });
 
-});
+
 
 
 
