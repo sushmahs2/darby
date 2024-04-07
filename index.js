@@ -287,7 +287,7 @@ imageUrls9.forEach(url => {
 });
 
 
-//import photo gallery 
+//import photo gallery-1
 
 const galleryContainer10 = document.getElementById('gallery-container10');
 
@@ -297,10 +297,6 @@ const imageUrls10 = [
     'resource/image/photogallery/photo2.jpeg',
     'resource/image/photogallery/photo3.jpeg',
     'resource/image/photogallery/photo4.PNG',
-    'resource/image/photogallery/photo5.PNG',
-    'resource/image/photogallery/photo6.JPG',
-    'resource/image/photogallery/photo7.jpeg',
-
 
     // Add more image URLs as needed
 ];
@@ -316,6 +312,34 @@ imageUrls10.forEach(url => {
 
     galleryItem10.appendChild(image10);
     galleryContainer10.appendChild(galleryItem10);
+});
+
+});
+
+//import photo gallery-2
+
+const galleryContainer10p = document.getElementById('gallery-container10-1');
+
+// Replace these image URLs with your own image URLs
+const imageUrls10p = [
+    'resource/image/photogallery/photo5.PNG',
+    'resource/image/photogallery/photo6.JPG',
+    'resource/image/photogallery/photo7.jpeg',
+
+    // Add more image URLs as needed
+];
+
+// Create image elements and append them to the gallery container
+imageUrls10.forEach(url => {
+    const galleryItem10p= document.createElement('div');
+    galleryItem10p.classList.add('gallery-item4');
+
+    const image10p = document.createElement('img');
+    image10p.src = url;
+    image10p.alt = 'Gallery Image';
+
+    galleryItem10p.appendChild(image10p);
+    galleryContainer10p.appendChild(galleryItem10p);
 });
 
 });
