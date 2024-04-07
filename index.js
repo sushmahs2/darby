@@ -330,7 +330,7 @@ const imageUrls10p = [
 ];
 
 // Create image elements and append them to the gallery container
-imageUrls10.forEach(url => {
+imageUrls10p.forEach(url => {
     const galleryItem10p= document.createElement('div');
     galleryItem10p.classList.add('gallery-item10-1');
 
