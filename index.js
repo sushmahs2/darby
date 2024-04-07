@@ -161,7 +161,7 @@ const imageUrls5 = [
 // Create image elements and append them to the gallery container
 imageUrls5.forEach(url => {
     const galleryItem5= document.createElement('div');
-    galleryItem5.classList.add('gallery-item4');
+    galleryItem5.classList.add('gallery-item5');
 
     const image5 = document.createElement('img');
     image5.src = url;
@@ -190,7 +190,7 @@ const imageUrls6 = [
 // Create image elements and append them to the gallery container
 imageUrls6.forEach(url => {
     const galleryItem6= document.createElement('div');
-    galleryItem6.classList.add('gallery-item4');
+    galleryItem6.classList.add('gallery-item6');
 
     const image6 = document.createElement('img');
     image6.src = url;
@@ -218,7 +218,7 @@ const imageUrls7 = [
 // Create image elements and append them to the gallery container
 imageUrls7.forEach(url => {
     const galleryItem7= document.createElement('div');
-    galleryItem7.classList.add('gallery-item4');
+    galleryItem7.classList.add('gallery-item7');
 
     const image7 = document.createElement('img');
     image7.src = url;
@@ -247,7 +247,7 @@ const imageUrls8 = [
 // Create image elements and append them to the gallery container
 imageUrls8.forEach(url => {
     const galleryItem8= document.createElement('div');
-    galleryItem8.classList.add('gallery-item4');
+    galleryItem8.classList.add('gallery-item8');
 
     const image8 = document.createElement('img');
     image8.src = url;
@@ -276,7 +276,7 @@ const imageUrls9 = [
 // Create image elements and append them to the gallery container
 imageUrls9.forEach(url => {
     const galleryItem9= document.createElement('div');
-    galleryItem9.classList.add('gallery-item4');
+    galleryItem9.classList.add('gallery-item9');
 
     const image9 = document.createElement('img');
     image9.src = url;
