@@ -55,6 +55,12 @@
     opacity: 0.5;
     z-index: 1;
   }
+@media (max-width: 1250px) {
+    .video-section{
+      
+      height: 50%;
+      width: 100%;
+    } }
 
   .head-color{
     color: blue;
