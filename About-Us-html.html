@@ -2,266 +2,88 @@
 <html >
 <head>
     <title>About Us</title>
-    <style>
-        body{
-            
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-           
-            background-color: #191919;
-            color: #fff;
-            padding-bottom: 50px;
-       
-        }
-        header {
-    text-transform:uppercase;
-
-    background-color: #fff;
-    color:#343434;
-    text-align: center;
-    padding: 1px;
-    font-size: 20px;
-    position: relative;
-    line-height: 1; /* Set line-height to 1 to ensure button height matches the text height */
-}
-
-
-
-/*This section for menu button*/
-button {
-    
-    background: none;
-    border: none;
-    cursor: pointer;
-    margin-right: 10px; /* Adjust the margin as needed */
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    height: 1em; /* Set the height to match the line-height of the header text */
-}
-
-nav {
-    
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: rgba(255, 255, 255, 0.08);
-    color: #fff;
-    height: 100vh;
-    width: 45%; /* Set the width to 30% of the screen */
-    max-width: 300px; /* Set a maximum width for larger screens */
-    z-index: 2; /* Ensure it is above other elements */
-}
-
-
-nav ul {
-    font-size: 25px;
-    
-    list-style-type: none;
-    padding: 1;
-    margin: 10;
-    text-align: left;
-}
-
-.buttonlist2 a {
-    color:#FFC200;/* Set text color to white and use !important to ensure it takes precedence */
-    text-decoration: none ; /* Remove underline */
-    }
-  
-    .buttonlist2 img {
-        width: 50px; /* Adjust image width as needed */
-    height: auto;
-    margin-bottom: 10px; /* Space between image and text */
-
-    }
-
-
-nav li {
-    margin-bottom: 20px;
-    
-}
-
-
-/* This section for divider*/
-
-    .heading{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 30px;
-    height: 30px;
-    padding-bottom: 20px;
-    }
-    .container {
-        padding-top:20px;
-        display: flex;
-        gap: 2rem;
-        align-items: center;
-        flex-shrink: 0;
-        justify-content: center;
-        height: 550px;
-        padding-bottom:20px;
-      }
+    <link rel="stylesheet" href="About-Us-cs.css ">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
       
-      .cell {
-       
-        flex:1;
-        max-width: 400px;
-        padding: 10px;
-        border-radius: 5px;
-        text-align: center;
-        text-align: justify;
-      }
-      .container img {
-    width: 300px; /* Adjust image width as needed */
-    height: auto;
-    margin-bottom: 10px; /* Space between image and text */
-          align-item:center;
-  }
+  </head>
 
-  .container p{
-    
-    text-align: justify;
-    font-size: 16px;
-    padding-bottom: 50px;
-  }
-  .cont-heading{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 25px;
-  }
-
-  .chat a {
-
-    color:#FFC200;/* Set text color to white and use !important to ensure it takes precedence */
-    font-size: 20px;
-    text-align: center;
-    padding: 50px;
-
-  }
-        @media (max-width: 1250px) {
-        .container{
-          flex-direction: column;
-          height: 100%;
-        } }
-
-
-
-  /* This section for history */
-.historycol{
-
-    justify-content: center;
-    align-items: center;
- 
-    text-align: center;
-   background-color: #FFC200;
-
-}
-
-.text-hist {
-    text-align: justify;
-    
-    
-    padding: 20px;
- 
-    color: #000;
-    padding-left: 10%;
-    padding-right: 10%;
-    
-  }
-
-  .hist-para{
-
-    padding-left: 50px;
-    padding-right: 50px;
-    font-size: 20px;
-    
-
-  }
-
-  .hist-headline{
-    padding-top: 50px;
-    text-align: center;
- 
-    font-size: 30px;
-  }
-
-        .space{
-            padding: 30px;
-        }
-    </style>
-        </head>
-<body>
 
     <!-- This section for menu button-->
-    <header>
-        <button id="menuButton2">
-            <img src="Website resource/menu.png" alt="Menu Button" width="50" height="50">
-        </button>
-        <h3>Darby Trading</h3> 
-        <nav id="menu2">
-            <ul class="buttonlist2">
-                
-                <li><a href="index.html">Home</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
-            </ul>
-        </nav>
-</header>
+    <div >
+      <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          <span class="fs-4"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-buildings-fill" viewBox="0 0 16 16">
+            <path d="M15 .5a.5.5 0 0 0-.724-.447l-8 4A.5.5 0 0 0 6 4.5v3.14L.342 9.526A.5.5 0 0 0 0 10v5.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5V14h1v1.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5zM2 11h1v1H2zm2 0h1v1H4zm-1 2v1H2v-1zm1 0h1v1H4zm9-10v1h-1V3zM8 5h1v1H8zm1 2v1H8V7zM8 9h1v1H8zm2 0h1v1h-1zm-1 2v1H8v-1zm1 0h1v1h-1zm3-2v1h-1V9zm-1 2h1v1h-1zm-2-4h1v1h-1zm3 0v1h-1V7zm-2-2v1h-1V5zm1 0h1v1h-1z"/>
+          </svg> Darby Trading</span>
+        </a>
+    
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="About-Us-html.html" class="btn btn-warning text-light" aria-current="page">About Us</a></li>
+          <li class="nav-item"><a href="contact-us.html" class="nav-link">Contact Us</a></li>
+        </ul>
+      </header>
+
+<Body>                                                                                                                            
+<!--Heading-->
 <div>
-<div>
-<h2 class="heading"> About Darby trading LLC</h2>
+  <h2 class="heading mb-5"> About Darby trading LLC</h2>
 </div>
     
+<!--features-->
 
+  
 
-<div class="container">
-   
-    <div class="cell">
-      <img src="Website resource/about us/photo1.png" alt="Image 1">
-      <h3 class="cont-heading">Our Expertise</h3>
-      <p>Darby Company pioneers in importing cutting-edge technology—Wood CNC Routers, Laser Machines, Agricultural Drones—and premium raw materials like MDF, Acrylic, Plywood. Our expertise drives innovation, offering superior quality for industries across India. </p>
-      
-      <div class="chat">
-   <a href="whatsapp://send?phone=916364215898">Learn More</a>
+  <section id="pricing">
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          
+          <div class="card-body">
+            <img src="./Website resource/about us/photo1.png" class="card-img-top" alt="...">                                                         
+            <h1 class="card-title pricing-card-title">OUR  EXPERTISE</h1>
+            <p>Darby Company pioneers in importing cutting-edge technology—Wood CNC Routers, Laser Machines, Agricultural Drones—and premium raw materials like MDF, Acrylic, Plywood. Our expertise drives innovation, offering superior quality for industries across India. </p>
+            <a href="whatsapp://send?phone=916364215898" class="nav-link active btn btn-primary my-0 mx-0 py-1 px-1" aria-current="page">Contact Us </a></li>
+          </div>                                                                      
+        </div>                                              
       </div>
-
-    </div>
-
-
-    <div class="cell">
-      <img src="Website resource/about us/photo2.png" alt="Image 2">
-      <h3 class="cont-heading">Our Products</h3>
-      <p>Discover Darby's TechMaster Series: Powerful Wood CNC Routers, precise Laser Machines, smart Agricultural Drones. Elevate your work with top-quality tools. Experience innovation that's reliable, making your job easier. Join us in shaping a better tomorrow. </p>
-     
-      <div class="chat"> 
-      <a href="whatsapp://send?phone=916364215898">Learn More</a>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-body">
+            <img src="./Website resource/about us/photo2.png" class="card-img-top" alt="...">                                                         
+            <h1 class="card-title pricing-card-title">OUR PRODUCTS</h1>
+            <p>Discover Darby's TechMaster Series: Powerful Wood CNC Routers, precise Laser Machines, smart Agricultural Drones. Elevate your work with top-quality tools. Experience innovation that's reliable, making your job easier. Join us in shaping a better tomorrow. <br>
+            </p>
+            <a href="whatsapp://send?phone=916364215898" class="nav-link active btn btn-warning my-0 mx-0 py-1 px-1" aria-current="page">Contact Us</a></li>
+          </div>
+        </div>
       </div>
- </div>
-   
-    <div class="cell">
-      <img src="Website resource/about us/photo3.png" alt="Image 3">
-      <h3 class="cont-heading">Our Suppliers</h3>
-      <p>We have built strong relationships with our suppliers over the years, and we work closely with them to ensure they meet our strict standards for quality and sustainability. We believe in ethical and fair trade practises and are committed to supporting our suppliers and their communities.</p>
-     
-      <div class="chat">
-   <a href="whatsapp://send?phone=916364215898">Learn More</a>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm ">
+          <div class="card-body">
+            <img src="./Website resource/about us/photo3.png" class="card-img-top" alt="...">                                                         
+            <h1 class="card-title pricing-card-title">OUR SUPPLIERS</h1>
+            <p>We have built strong relationships with our suppliers over the years, and we work closely with them to ensure they meet our strict standards for quality and sustainability. We believe in ethical and fair trade practises and are committed to supporting our suppliers and their communities. </p>
+            <a href="whatsapp://send?phone=916364215898" class="nav-link active btn btn-primary my-0 mx-0 py-1 px-1" aria-current="page">Contact Us</a></li>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-      
-</div>
-<div class="space">
+  </section>
 
-</div>
+
+
   
     
-    <div class="historycol">
-    <div class="text-hist">
-        <h2 class="hist-headline">
+    <div class="historycol ">
+    
+        <h2 class="heading hfont1 py-5 my-5" >
             Our History
         </h2>
         
-        <p class="hist-para">Welcome to the world of innovation and relentless pursuit of cutting-edge technology - welcome to the story of Darby Company.
+        <p class="hist-para ">Welcome to the world of innovation and relentless pursuit of cutting-edge technology - welcome to the story of Darby Company.
             <br> 
             <br>
             Founded in 2010, Darby Company emerged from the visionary minds of a diverse group of individuals hailing from different cities across South India. United by a shared passion for exploration and a drive to introduce pioneering technologies to India, our journey began with a quest to bring forth revolutionary advancements from across the globe.
@@ -287,5 +109,14 @@ nav li {
     </div>
     
     <script src="About-Us-js.js"></script>    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</Body>
 
-</body>
+<footer class="py-3 mt-4 bg-footer">
+  <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+    <li class="nav-item"><a href="index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+    <li class="nav-item"><a href="About-Us-html.html" class="nav-link px-2 text-body-secondary">About Us</a></li>
+    <li class="nav-item"><a href="contact-us.html" class="nav-link px-2 text-body-secondary">Contact Us</a></li>
+  </ul>
+  <p class="text-center text-body-secondary">© Darby Trading LLC, Inc</p>
+</footer>
