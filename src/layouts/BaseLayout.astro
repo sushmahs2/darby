@@ -1,0 +1,8 @@
+---
+interface Props { title: string; description: string }
+const { title, description } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? Astro.url).toString();
+import '../styles/global.css';
+---
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="theme-color" content="#10243A"/><meta name="description" content={description}/><link rel="canonical" href={canonical}/><title>{title} | Darby Trading</title><meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/><meta property="og:url" content={canonical}/></head><body><a class="skip" href="#main">Skip to content</a><header class="header"><a class="brand" href="/" aria-label="Darby Trading home"><span class="brand-mark">D</span><span>DARBY <small>TRADING</small></span></a><nav aria-label="Main navigation"><a href="/">Home</a><a href="/about/">About</a><a href="/products/">Products</a><a href="/contact/">Contact</a></nav><a class="header-cta" href="/contact/">Enquire now <span aria-hidden="true">↗</span></a></header><main id="main"><slot /></main><footer><div><strong>DARBY TRADING</strong><p>Product sourcing and trading enquiries.</p></div><div><a href="/about/">About us</a><a href="/products/">Products</a><a href="/contact/">Contact</a><a href="/privacy/">Privacy</a></div><p class="copyright">© {new Date().getFullYear()} Darby Trading. All rights reserved.</p></footer></body></html>
